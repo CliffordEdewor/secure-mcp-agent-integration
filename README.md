@@ -1,6 +1,6 @@
 # Secure MCP Agent Integration
 
-Secure agent–tool communication using the Model Context Protocol (MCP) with deployment on Amazon Bedrock AgentCore. This project demonstrates structured tool invocation, controlled agent interactions, and secure integration patterns for agentic AI systems.
+Secure agent-tool communication using the Model Context Protocol (MCP) with deployment on Amazon Bedrock AgentCore. This project demonstrates structured tool invocation, controlled agent interactions, and secure integration patterns for agentic AI systems.
 
 ## 🎯 Objectives
 - Implement an MCP server for agent-to-tool communication
