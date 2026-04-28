@@ -1,23 +1,45 @@
 # Secure MCP Agent Integration
 
-Secure agent-tool communication using the Model Context Protocol (MCP) with deployment on Amazon Bedrock AgentCore. This project demonstrates structured tool invocation, controlled agent interactions, and secure integration patterns for agentic AI systems.
+This project implements secure agent-to-tool communication using the Model Context Protocol (MCP) within a cloud-native AI environment powered by Amazon Bedrock AgentCore.
 
-## 🎯 Objectives
-- Implement an MCP server for agent-to-tool communication
-- Enable structured and secure tool invocation
-- Integrate the MCP workflow with AWS AgentCore
-- Validate agent interactions with external tools
+It focuses on enabling structured tool invocation, enforcing controlled execution, and securing interactions between AI agents and external systems.
 
-## ⚙️ Key Implementation Steps
-- Implemented MCP server using Python
-- Exposed tools through MCP decorators
-- Integrated agent workflows with AgentCore runtime
-- Tested secure agent-tool interaction
+---
 
-## ⚡ Key Features
-- Structured MCP-based agent communication  
-- Controlled tool invocation by AI agents  
-- Secure architecture for agent-tool integration  
+## 🔐 Security Highlights
+
+- Implemented structured and controlled agent-to-tool communication using MCP  
+- Enforced secure execution boundaries for AI-driven tool invocation  
+- Designed integration patterns to prevent unauthorized or unsafe tool access  
+- Enabled predictable and auditable agent interactions with external services  
+
+---
+
+## ⚙️ System Capabilities
+
+- Structured tool invocation using MCP protocol standards  
+- Controlled interaction between AI agents and external APIs  
+- Integration with Amazon Bedrock AgentCore runtime  
+- Modular design supporting extensible agent-tool workflows  
+
+---
+
+## 🛠️ Implementation Overview
+
+- Developed MCP server using Python for agent-tool communication  
+- Exposed tools using MCP decorators for structured access  
+- Integrated MCP workflows with AgentCore runtime  
+- Validated secure interaction through controlled execution testing  
+
+---
+
+## 📊 Outcomes
+
+- Successfully enabled secure and structured communication between AI agents and external tools  
+- Demonstrated controlled execution patterns for AI-driven workflows  
+- Established integration model applicable to AI system governance and automation  
+
+--- 
 
 ## 🔧 Technologies
 Python • Model Context Protocol (MCP) • Amazon Bedrock AgentCore
@@ -39,8 +61,17 @@ Python • Model Context Protocol (MCP) • Amazon Bedrock AgentCore
 ### Deployment Output
 ![Deployment](images/agentcore-deployment-output.png)
 
-## 📚 Use Case
-Demonstrates secure AI agent integration patterns relevant to cloud security automation, AI system governance, and intelligent infrastructure monitoring.
+---
 
-## 🙏🏼 Acknowledgment
-Completed as part of BeSA Week 5: Model Context Protocol in Practice.
+## 🔗 Context
+
+This project serves as a supporting component within a broader Agentic AI security architecture.
+
+See main system:
+https://github.com/CliffordEdewor/agentic-ai-security-bedrock-strands.git
+
+## 📚 Use Case
+Applies secure AI agent integration patterns for cloud security automation, AI system governance, and intelligent infrastructure monitoring.
+
+## 📄 License
+This project is provided for demonstration and portfolio purposes, showcasing secure implementation of MCP-based agent integration.
