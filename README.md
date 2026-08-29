@@ -61,6 +61,11 @@ Python • Model Context Protocol (MCP) • Amazon Bedrock AgentCore
 ### Deployment Output
 ![Deployment](images/agentcore-deployment-output.png)
 
+### Runtime Validation
+![Runtime Validation](images/mcp-runtime-validation.png)
+
+Operational runtime validation of the deployed Agentic AI security framework, demonstrating live MCP execution, server readiness, and real-time runtime telemetry.
+
 ---
 
 ## 🔗 Context
