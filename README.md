@@ -33,11 +33,16 @@ It focuses on enabling structured tool invocation, enforcing controlled executio
 
 ---
 
-## 📊 Outcomes
+## 📊 Engineering Outcomes
 
-- Successfully enabled secure and structured communication between AI agents and external tools  
-- Demonstrated controlled execution patterns for AI-driven workflows  
-- Established integration model applicable to AI system governance and automation  
+- **Implemented** a Python/FastMCP MCP server exposing structured tool capabilities.
+- **Containerised and deployed** the MCP service to Amazon Bedrock AgentCore Runtime.
+- **Automated** AgentCore deployment and runtime configuration through Python deployment scripts.
+- **Registered** the deployed runtime with the application configuration.
+- **Validated** successful runtime initialisation and MCP service readiness.
+- **Demonstrated** live tool execution within the deployed agentic application.
+- **Captured** runtime telemetry confirming MCP initialisation and service activity.
+- **Established** integration model applicable to AI system governance and automation
 
 --- 
 
