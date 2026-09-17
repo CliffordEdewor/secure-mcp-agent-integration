@@ -115,6 +115,45 @@ The runtime evidence demonstrates successful deployment, MCP service readiness, 
 
 ---
 
+### Future extension: portable signed execution evidence
+
+This is a future design consideration and is not implemented or live-validated in
+the current proof of concept.
+
+The current implementation documents security controls within the originating
+environment, including authenticated gateway access, MCP agent-to-tool boundaries,
+runtime deployment, execution validation, service logs, and observability.
+
+For selected consequential tool actions, a future extension could produce a
+portable, cryptographically signed receipt when execution evidence needs to be
+shared outside the originating runtime trust boundary. A receipt could bind:
+
+- a tool and runtime or execution reference;
+- a canonicalised digest of the materialised request that executed;
+- a result or artefact digest;
+- a trace or correlation reference;
+- status and timestamp; and
+- an identified signing-key reference.
+
+This could support tamper-evident verification that an identified signing key
+signed a selected claim and that the signed representation was not subsequently
+altered after export.
+
+It would not establish that the original caller was properly authenticated or
+authorised, that the runtime was uncompromised, that a tool action was safe or
+correct, or that an external side effect occurred as claimed.
+
+Any future implementation would need to address trust assumptions,
+canonicalisation, privacy and data minimisation, key custody, rotation and
+revocation, retention, and the downstream verifier's policy. This pattern should
+be considered selectively for consequential actions rather than applied to every
+MCP request.
+
+This consideration arose from
+[Issue #1](https://github.com/CliffordEdewor/secure-mcp-agent-integration/issues/1)
+
+---
+
 ## 🔗 Context
 
 This project forms a focused MCP security integration within a broader Agentic AI security architecture.
