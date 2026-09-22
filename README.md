@@ -111,7 +111,7 @@ Python • FastMCP • Model Context Protocol (MCP) • Amazon Bedrock AgentCore
 ### Runtime Validation
 ![Runtime Validation](images/mcp-runtime-validation.png)
 
-The runtime evidence demonstrates operational validation of the deployed MCP integration, including agent-to-tool execution, MCP initialisation and service readiness, three enabled MCP servers, and 34/34 monitored log events.
+**The runtime evidence demonstrates operational validation of the deployed MCP integration, including agent-to-tool execution, MCP initialisation and service readiness, three enabled MCP servers, and 34/34 monitored log events.**
 
 ---
 
